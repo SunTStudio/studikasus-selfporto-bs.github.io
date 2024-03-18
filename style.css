@@ -49,6 +49,12 @@
     background-color: #353535 ;
 }
 
+#pendidikan .container .row .col-lg-6:hover,#pendidikan .container .row .col-lg-5:hover{
+    background-color: #ffffff ;
+    color: #353535;
+    transition: 0.4s ease;
+}
+
 #kemampuan{
     height: 100vh;
     width: 100%;
@@ -57,6 +63,16 @@
 
 #kemampuan #skill-h, #kemampuan #sub-h{
     color: white;
+}
+
+#portofolio .container .row .row{
+    transition: 0.4s ease;
+}
+
+#portofolio .container .row .row:hover{
+    transition: 0.4s ease;
+    color: #353535;
+    background-color: #ffffff;
 }
 
 .intro2{
