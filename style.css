@@ -34,7 +34,7 @@
     width: 100%;
     height: 100vh;
 }
-#pendidikan .container .row .col-6,#pendidikan .container .row .col-5{
+#pendidikan .container .row .col-lg-6,#pendidikan .container .row .col-lg-5{
     background-color: #353535 ;
 }
 
@@ -71,7 +71,7 @@
     border: 1px solid #353535;
     box-shadow: 2px 2px 10px black;
     padding: 15px;
-    width: 300px;
+    width: 20rem;
     margin: 10px;
     transition: 0.4s ease;
     border-radius: 10px;
@@ -86,7 +86,7 @@
     transition: 0.4s ease;
     cursor: pointer;
     padding: 15px;
-    width: 300px;
+    width: 20rem;
     margin: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
     border-radius: 10px;
@@ -186,4 +186,153 @@
     justify-content: center;
     margin-top: 40px;
     padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    #header{
+    width: 100%;
+    height: auto;
+    background-color: #353535;
+    padding-bottom: 4rem;
+}
+
+    #header .container #header-name{
+        font-size: 1rem;
+    }
+
+    #header .container h4{
+        font-size: 0.7rem;
+    }
+
+    #header .container img{
+        width: 35%;
+    }
+
+    #pendidikan {
+    background-image:url(https://jecconsultant.co.id/wp-content/uploads/2020/02/amikom-1.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+    }
+
+    #pendidikan .container .row{
+    background-color: #353535;
+    padding-bottom: 1rem;
+    }
+
+    #pendidikan .container .row p{
+    padding-top: 2rem;
+    }
+
+    .card-skill i{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-skill p{
+    font-size: 0.6rem;
+
+}
+
+.card-skill h2{
+    font-size: 1rem;
+}
+
+.card-skill{
+    border: 1px solid #353535;
+    box-shadow: 2px 2px 10px black;
+    padding: 15px;
+    width: 8rem;
+    transition: 0.4s ease;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-skill:hover{
+    background-color: #ffffff;
+    border: 1px solid #353535;
+    color: #414141;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    cursor: pointer;
+    padding: 15px;
+    width: 8rem;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+#kontak  .kontak-isi{
+    color: #353535;
+    transition: 0.4s ease;
+    background-color: #ffffff;
+}
+
+#kontak  .kontak-isi:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+    transition: 0.4s ease;
+    color: #ffffff;
+    background-color: #353535;
+}
+
+#kontak  .kontak-isi p{
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+     #header{
+    width: 100%;
+    height: auto;
+    background-color: #353535;
+    padding-bottom: 6rem;
+    }
+    
+    #pendidikan {
+    background-image:url(https://jecconsultant.co.id/wp-content/uploads/2020/02/amikom-1.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    }
+
+.card-skill{
+    border: 1px solid #353535;
+    box-shadow: 2px 2px 10px black;
+    padding: 15px;
+    width: 16rem;
+    margin: 10px;
+    transition: 0.4s ease;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-skill:hover{
+    background-color: #ffffff;
+    border: 1px solid #353535;
+    color: #414141;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    cursor: pointer;
+    padding: 15px;
+    width: 16rem;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+#kemampuan{
+    height: 80vh;
+    width: 100%;
+    background-color: #353535;
+}
+
 }
