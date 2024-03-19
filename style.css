@@ -75,12 +75,7 @@
     background-color: #ffffff;
 }
 
-.intro2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-}
+
 
 .card-skill i{
     font-size: 2.2rem;
@@ -119,13 +114,6 @@
     border-radius: 10px;
 }
 
-.intro3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 100px;
-    margin-top: 1rem;
-}
 
 #portofolio .card img{
     width: 100%;
