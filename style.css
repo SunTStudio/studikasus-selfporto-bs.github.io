@@ -356,4 +356,10 @@
     background-color: #353535;
 }
 
+#kontak  .kontak-isi p{
+    padding-top: 1rem;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
 }
