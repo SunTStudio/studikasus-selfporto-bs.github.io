@@ -56,7 +56,7 @@
 }
 
 #kemampuan{
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     background-color: #353535;
 }
@@ -323,7 +323,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 160vh;
     }
 
 .card-skill{
